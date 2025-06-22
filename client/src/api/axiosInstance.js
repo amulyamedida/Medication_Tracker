@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://medication-tracker-3fyv.onrender.com',
   headers: { 'Content-Type': 'application/json' },
 });
 
